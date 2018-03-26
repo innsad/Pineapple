@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { FlatList, StyleSheet } from 'react-native'
-import Note from './Note'
+import Note from '../Note'
 
 const generateList = size => {
   const list = []

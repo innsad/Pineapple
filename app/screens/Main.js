@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { StyleSheet, View } from 'react-native'
 import NoteList from '../components/NoteList'
 
-export default class App extends React.Component {
+class Main extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -21,3 +21,5 @@ const styles = StyleSheet.create({
     paddingTop: 25
   }
 })
+
+export default Main
